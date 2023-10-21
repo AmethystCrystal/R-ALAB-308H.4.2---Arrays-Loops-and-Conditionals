@@ -77,7 +77,8 @@ const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle'
 
 // Console log the index of Titanic.
 
-// console.log(favMovies[8]);
+// const indexTitanic = favMovies.indexOf('Titanic');
+// console.log(indexTitanic);
 
 // Use the .sort method.
 
@@ -120,4 +121,41 @@ const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle'
 // console.log(favMovies);
 
 // slice the last half of the array. 
+// Store the value of your slice in a variable and console.log it.
+
+// console.log(favMovies.length)
+// const sliced = favMovies.slice(9,19);
+// console.log(sliced);
+
+// console.log your final results.
+
+// console.log(favMovies);
+
+// console.log the index of "Fast and Furious."
+// We removed it from the array. What value do we get when we look for the index of something that is not in the array?
+
+// const indexVolver = favMovies.indexOf('Volver'); /* 'Volver' was the movie that was removed using pop, not 'Fast and Furious' because we sorted the list before popping it */
+// console.log(indexVolver); /* We get a value of -1 */
+// console.log(favMovies);
+
+// With the following multi-dimensional array:
+const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+                      ["Lucinda", "Jacc", "Neff", "Snoop"],
+                      ["Petunia", ["Baked Goods", "Waldo"]]];
+ 
+// Remove Eggbert (hint look at the slice/splice methods).
+
+// whereIsWaldo.splice(1, 1)
+// console.log(whereIsWaldo);
+
+// Change "Neff" to "No One".
+
+// whereIsWaldo[2][2] = "No One";
+// console.log(whereIsWaldo);
+
+// Access and console.log "Waldo".
+
+// console.log(whereIsWaldo[3][1][1]);
+
+
 
