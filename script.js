@@ -8,7 +8,7 @@
 
 // for (let i = 0; i <= 200; i++){
 //     if (i % 2 === 0) console.log(i)
-    
+
 // }
 
 // Fizz Buzz
@@ -36,7 +36,7 @@
 // const plantee = ["Plantee", "plant",  5000 , "Mordor"]
 // const porgee = ["Porgee", "Porg", 186, "Ahch-To"]
 // const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
- 
+
 // Plantee just had her birthday; change Plantee's array to reflect her being a year older.
 
 // plantee[2] = 5001
@@ -71,9 +71,9 @@
 
 // Here is a list of favorite movies:
 
-const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 
-'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 
-'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+// const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 
+// 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 
+// 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
 
 // Console log the index of Titanic.
 
@@ -139,10 +139,10 @@ const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle'
 // console.log(favMovies);
 
 // With the following multi-dimensional array:
-const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
-                      ["Lucinda", "Jacc", "Neff", "Snoop"],
-                      ["Petunia", ["Baked Goods", "Waldo"]]];
- 
+// const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+//                       ["Lucinda", "Jacc", "Neff", "Snoop"],
+//                       ["Petunia", ["Baked Goods", "Waldo"]]];
+
 // Remove Eggbert (hint look at the slice/splice methods).
 
 // whereIsWaldo.splice(1, 1)
@@ -157,5 +157,70 @@ const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
 
 // console.log(whereIsWaldo[3][1][1]);
 
+// Write code that logs "Love me, pet me! HSSSSSS!" 20 times.
+// For every even number in your loop, log "...human... why you taking pictures of me...?",
+// "...the catnip made me do it...", or "...why does the red dot always get away...?" at random.
+
+// let cat = 'Love me, pet me! HSSSSSS!';
+// for (let i = 0; i < 20; i++) {
+//     if (i % 2 === 0) {
+//         console.log('...human... why you taking pictures of me...')
+//     }
+//     else {
+//         console.log(cat);
+//     }
 
 
+// }
+
+// Find the median number in the following nums array, then console.log that number.
+
+// const nums = [14, 11, 16, 15, 13, 16, 15, 17, 19, 11, 12, 14, 19, 11, 15, 17, 11, 18, 12, 17, 12, 71, 18, 15, 12];
+
+// nums.sort();
+
+// const middleNum = Math.floor(nums.length / 2);
+// const median = nums[middleNum];
+// console.log(median); /* the median number is 15 */
+
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "Per Scholas hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmallow peeps"
+  ];
+  
+  // Thom's closet is more complicated. Check out this nested data structure!!
+  const thomsCloset = [
+    [
+      // These are Thom's shirts
+      "grey button-up",
+      "dark grey button-up",
+      "light blue button-up",
+      "blue button-up",
+    ],[
+      // These are Thom's pants
+      "grey jeans",
+      "jeans",
+      "PJs"
+    ],[
+      // Thom's accessories
+      "wool mittens",
+      "wool scarf",
+      "raybans"
+    ]
+  ];
+
+// Remove Kristyn's shoe from the array and save it to the variable kristynsShoe.
+// Use that variable to add Kristyn's lost shoe to Thom's accessories array.
+
+// const kristynsShoe = kristynsCloset.splice(0, 1);
+
+// thomsCloset[2].push(...kristynsShoe);
+// console.log(thomsCloset);
+
+
+// I decided to stop here in the middle of the optional questions
